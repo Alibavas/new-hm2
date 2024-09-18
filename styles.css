@@ -1,0 +1,81 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: rgb(34,187,195);
+background: linear-gradient(0deg, rgba(34,187,195,1) 25%, rgba(249,248,148,1) 71%);
+}
+
+.pricing-table {
+    display: flex;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.plan {
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+    border-right: 1px solid #e0e0e0;
+}
+
+.plan:last-child {
+    border-right: none;
+}
+
+h2 {
+    margin: 0 0 10px;
+    font-size: 24px;
+    color: #333;
+}
+
+.price {
+    font-size: 36px;
+    color: #333;
+}
+
+.price span {
+    font-size: 18px;
+    color: #666;
+}
+
+p {
+    margin: 15px 0;
+    color: #666;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.free .button {
+    background-color: #28a745;
+}
+
+.free .button:hover {
+    background-color: #218838;
+}
+
+.premium .button {
+    background-color: #ffc107;
+}
+
+.premium .button:hover {
+    background-color: #e0a800;
+}
